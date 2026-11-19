@@ -69,7 +69,7 @@ Su propuesta es sencilla: permitir que cualquier usuario consulte información e
 
 El núcleo de DataLens AI utiliza una arquitectura de **orquestación jerárquica multiagente**, donde cada agente tiene responsabilidades especializadas y trabaja bajo la coordinación de un supervisor central.
 
-
+```mermaid
 flowchart TD
     U(["User Query"]) --> O
 
@@ -129,6 +129,7 @@ flowchart TD
     AU -.->|"Validation Issues"| O
     EV -.->|"Evaluation Feedback"| O
 
+```
 
 ### Agentes especializados
 
