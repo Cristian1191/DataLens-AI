@@ -80,42 +80,52 @@ Su propuesta es sencilla: permitir que cualquier usuario consulte información e
 El núcleo de DataLens AI utiliza una arquitectura de **orquestación jerárquica multiagente**, donde cada agente tiene responsabilidades especializadas y trabaja bajo la coordinación de un supervisor central.
 
 ```mermaid
-flowchart TD
-    U(["User Query"]) --> O
 
+flowchart TD
+    U(["User Query"])
     O["Hierarchical Orchestrator"]
 
-    subgraph ORCHESTRATION["ORCHESTRATION & CONTROL"]
-        O --> PLAN["Task Planning & Agent Coordination"]
-        PLAN --> STATE["Execution State & Context Management"]
-        STATE --> O
+    U --> O
+
+    subgraph ORCHESTRATION["ORCHESTRATION AND CONTROL"]
+        PLAN["Task Planning"]
+        STATE["Execution State and Context Management"]
+        O --> PLAN
+        PLAN --> STATE
+        STATE -.-> O
     end
 
     subgraph AGENTS["SPECIALIZED AI AGENTS"]
         I["Query Interpreter"]
         E["Data Execution Agent"]
         A["Statistical Analysis Agent"]
-        AU["Audit & Validation Agent"]
-        EV["Evaluation & Quality Agent"]
+        AU["Audit and Validation Agent"]
+        EV["Evaluation and Quality Agent"]
         R["Generative Report Agent"]
     end
 
-    subgraph INFRA["DATA & AI INFRASTRUCTURE"]
+    subgraph INFRA["DATA AND AI INFRASTRUCTURE"]
         DB[("Microsoft SQL Server")]
         PY["Python Analytics Engine"]
         DOCKER["Docker Container"]
-        LLM["Ollama / DeepSeek LLM Runtime"]
+        LLM["Ollama and DeepSeek LLM"]
     end
 
     subgraph OUTPUT["INTELLIGENT BI OUTPUT"]
         DATA["Structured Analytical Results"]
-        REPORT["Generated Insights & Narrative"]
+        REPORT["Generated Insights and Narrative"]
         UI["Interactive BI Dashboard"]
     end
 
     O --> I
+    O --> E
+    O --> A
+    O --> AU
+    O --> EV
+    O --> R
+
     I <--> LLM
-    I -->|"Validated Query Specification"| E
+    I -->|"Query Specification"| E
 
     E -->|"SQL Queries"| DB
     DB -->|"Retrieved Data"| E
@@ -128,19 +138,19 @@ flowchart TD
     EV -->|"Quality Feedback"| O
 
     EV -->|"Approved Results"| DATA
-    O -->|"Report Generation Request"| R
     DATA --> R
 
     R <--> LLM
     R --> REPORT
     REPORT --> UI
 
-    DOCKER --> LLM
+    DOCKER -->|"Hosts Model Server"| LLM
 
     E -.->|"Execution Errors"| O
     A -.->|"Analysis Errors"| O
     AU -.->|"Validation Issues"| O
     EV -.->|"Evaluation Feedback"| O
+
 ```
 
 ### Agentes especializados
