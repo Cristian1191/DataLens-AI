@@ -199,19 +199,6 @@ Una interfaz de análisis conversacional inspirada en el enfoque de Generative U
 - **Query Refinement:** refinamiento contextual de consultas.
 - **Dynamic Reporting:** presentación estructurada de resultados.
 
-## 🛠️ Tech Stack
-
-| Área | Tecnologías |
-|---|---|
-| Frontend | React, TypeScript, Tailwind CSS |
-| Backend | Node.js, Firebase Cloud Functions |
-| Data Engineering | Python, Pandas, NumPy |
-| Database | Microsoft SQL Server |
-| AI Infrastructure | Ollama, LLMs |
-| Reasoning Models | DeepSeek-R1-Distill-Qwen-7B |
-| Communication | REST APIs, JSON |
-| Analytics | Statistical Analysis, Data Validation |
-
 ---
 
 ## 🚀 Visión
