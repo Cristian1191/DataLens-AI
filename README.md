@@ -8,16 +8,49 @@ Plataforma de Business Intelligence impulsada por IA generativa que transforma c
 
 ### Technology Stack
 
+**Frontend & Backend**
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
+**Data Engineering & Analytics**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
+**Artificial Intelligence & LLMs**
+
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)
+
+**Business Intelligence & Visualization**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+
+---
+
+### Technology Architecture
+
+| Área | Tecnologías |
+|---|---|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | Node.js, Firebase Cloud Functions |
+| Data Engineering | Python, Pandas, NumPy |
+| Data Sources | Microsoft SQL Server, Excel, CSV |
+| Database | Microsoft SQL Server |
+| AI Infrastructure | Ollama, LLMs |
+| Reasoning Models | DeepSeek-R1-Distill-Qwen-7B |
+| Business Intelligence | Power BI, Interactive BI |
+| Data Visualization | Chart.js, Dynamic Reports |
+| Communication | REST APIs, JSON |
+| Analytics | Statistical Analysis, Data Validation |
 ---
 
 ## ✦ ¿Qué es DataLens AI?
