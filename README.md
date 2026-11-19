@@ -2,18 +2,21 @@
 
 ### Generative Business Intelligence · Hierarchical Multi-Agent Systems
 
-\<p align="center">   \<strong>From Enterprise Data to Intelligent Decisions.\</strong> \</p>
+**From Enterprise Data to Intelligent Decisions.**
 
-\<p align="center">   Plataforma de Business Intelligence impulsada por IA generativa que transforma consultas en lenguaje natural en análisis estadísticos, insights empresariales y reportes interactivos. \</p>
+Plataforma de Business Intelligence impulsada por IA generativa que transforma consultas en lenguaje natural en análisis estadísticos, insights empresariales y reportes interactivos.
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)" alt="React" />   \<img src="[https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)" alt="TypeScript" />   \<img src="[https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)" alt="Node.js" />   \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python" /> \</p>
+### Technology Stack
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white](https://img.shields.io/badge/Ollama-000000?style=for-the-badge\&logo=ollama\&logoColor=white)" alt="Ollama" />
-&#x20; \<img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)" alt="Firebase" />
-&#x20; \<img src="[https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)" alt="Microsoft SQL Server" />
-&#x20; \<img src="[https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)" alt="Tailwind CSS" />
-\</p>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 ---
 
@@ -68,15 +71,15 @@ flowchart TD
 
 ### Agentes especializados
 
-| Agente                  | Responsabilidad                                                              |
-| ----------------------- | ---------------------------------------------------------------------------- |
-| **Orchestrator**        | Coordina tareas, agentes y flujo de ejecución.                               |
-| **Query Interpreter**   | Convierte lenguaje natural en instrucciones analíticas estructuradas (JSON). |
-| **Execution Agent**     | Gestiona consultas, servicios y recuperación de datos.                       |
-| **Statistical Analyst** | Determina y ejecuta procedimientos estadísticos.                             |
-| **Audit Agent**         | Verifica coherencia, integridad y consistencia de resultados.                |
-| **Evaluation Agent**    | Evalúa precisión y calidad mediante criterios de validación.                 |
-| **Report Generator**    | Convierte resultados en reportes e insights visuales.                        |
+| Agente | Responsabilidad |
+|---|---|
+| **Orchestrator** | Coordina tareas, agentes y flujo de ejecución. |
+| **Query Interpreter** | Convierte lenguaje natural en instrucciones analíticas estructuradas (JSON). |
+| **Execution Agent** | Gestiona consultas, servicios y recuperación de datos. |
+| **Statistical Analyst** | Determina y ejecuta procedimientos estadísticos. |
+| **Audit Agent** | Verifica coherencia, integridad y consistencia de resultados. |
+| **Evaluation Agent** | Evalúa precisión y calidad mediante criterios de validación. |
+| **Report Generator** | Convierte resultados en reportes e insights visuales. |
 
 ## ⚡ Pipeline de inteligencia
 
@@ -136,16 +139,16 @@ Una interfaz de análisis conversacional inspirada en el enfoque de Generative U
 
 ## 🛠️ Tech Stack
 
-| Área              | Tecnologías                           |
-| ----------------- | ------------------------------------- |
-| Frontend          | React, TypeScript, Tailwind CSS       |
-| Backend           | Node.js, Firebase Cloud Functions     |
-| Data Engineering  | Python, Pandas, NumPy                 |
-| Database          | Microsoft SQL Server                  |
-| AI Infrastructure | Ollama, LLMs                          |
-| Reasoning Models  | DeepSeek-R1-Distill-Qwen-7B           |
-| Communication     | REST APIs, JSON                       |
-| Analytics         | Statistical Analysis, Data Validation |
+| Área | Tecnologías |
+|---|---|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | Node.js, Firebase Cloud Functions |
+| Data Engineering | Python, Pandas, NumPy |
+| Database | Microsoft SQL Server |
+| AI Infrastructure | Ollama, LLMs |
+| Reasoning Models | DeepSeek-R1-Distill-Qwen-7B |
+| Communication | REST APIs, JSON |
+| Analytics | Statistical Analysis, Data Validation |
 
 ---
 
