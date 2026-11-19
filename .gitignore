@@ -1,0 +1,75 @@
+﻿# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# AI models and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+*.ckpt
+*.model
+checkpoints/
+ollama_models/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.secret
+.secret.*
+.secrets/
+secrets/
+*serviceAccount*.json
+*service-account*.json
+*.pem
+*.key
+
+# Private data and temporary files
+*.sqlite
+*.db
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Editors and operating system
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build outputs
+dist/
+build/
+coverage/
+.next/
