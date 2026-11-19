@@ -33,6 +33,12 @@ Plataforma de Business Intelligence impulsada por IA generativa que transforma c
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Firebase AI](https://img.shields.io/badge/Firebase_AI_Logic-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
+**Infrastructure & Containerization**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![NVIDIA CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
 **Business Intelligence & Visualization**
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -51,10 +57,14 @@ Plataforma de Business Intelligence impulsada por IA generativa que transforma c
 | Database | Microsoft SQL Server |
 | AI Infrastructure | Ollama, LLMs |
 | Reasoning Models | DeepSeek-R1-Distill-Qwen-7B |
+| Containerization | Docker, Docker Compose |
+| GPU Acceleration | NVIDIA CUDA |
+| Model Serving | Python API, REST APIs, Ollama |
 | Business Intelligence | Power BI, Interactive BI |
 | Data Visualization | Chart.js, Dynamic Reports |
 | Communication | REST APIs, JSON |
 | Analytics | Statistical Analysis, Data Validation |
+
 ---
 
 ## ✦ ¿Qué es DataLens AI?
@@ -93,7 +103,8 @@ flowchart TD
     subgraph INFRA["DATA & AI INFRASTRUCTURE"]
         DB[("Microsoft SQL Server")]
         PY["Python Analytics Engine"]
-        LLM["LLM Runtime<br/>Ollama / DeepSeek / Other Models"]
+        DOCKER["Docker Container"]
+        LLM["Ollama / DeepSeek LLM Runtime"]
     end
 
     subgraph OUTPUT["INTELLIGENT BI OUTPUT"]
@@ -124,11 +135,12 @@ flowchart TD
     R --> REPORT
     REPORT --> UI
 
+    DOCKER --> LLM
+
     E -.->|"Execution Errors"| O
     A -.->|"Analysis Errors"| O
     AU -.->|"Validation Issues"| O
     EV -.->|"Evaluation Feedback"| O
-
 ```
 
 ### Agentes especializados
@@ -170,11 +182,27 @@ flowchart TD
 La arquitectura contempla una estrategia multimodelo, distribuyendo las responsabilidades de acuerdo con la naturaleza de cada tarea.
 
 - **Ollama:** infraestructura de ejecución y administración de modelos LLM.
-- **DeepSeek-R1-Distill-Qwen-7B:** modelo considerado para experimentación con razonamiento especializado.
+- **DeepSeek-R1-Distill-Qwen-7B:** modelo utilizado para experimentación con razonamiento especializado.
+- **Docker:** containerización del entorno de ejecución del modelo y sus servicios asociados.
+- **Docker Compose:** configuración y administración de los servicios mediante una definición centralizada.
 - **LLM Orchestration:** interpretación, planificación y coordinación de agentes.
 - **Generative AI:** generación de explicaciones, síntesis y narrativas analíticas.
 
 Los cálculos estadísticos se delegan a herramientas deterministas, evitando depender exclusivamente de los modelos generativos para obtener resultados numéricos.
+
+## ◈ Infrastructure & Deployment
+
+DataLens AI incorpora una infraestructura basada en contenedores para facilitar la ejecución y administración de sus componentes de inteligencia artificial.
+
+**Docker & Containerization**
+
+- **Docker Engine:** ejecución de servicios y entornos aislados mediante contenedores.
+- **Docker Compose:** definición, configuración y administración de servicios.
+- **Containerized LLM Server:** ejecución del servidor de inferencia de DeepSeek en un entorno Docker.
+- **NVIDIA CUDA:** soporte para aceleración por GPU en entornos compatibles.
+- **REST API:** comunicación entre el backend de la aplicación y el servidor de modelos.
+
+Esta implementación permite mantener el servidor de inferencia independiente del frontend y de los servicios de orquestación, reduciendo la dependencia de ejecuciones manuales y facilitando la continuidad del entorno de desarrollo.
 
 ## ◈ Data Engineering & Business Intelligence
 
@@ -200,9 +228,3 @@ Una interfaz de análisis conversacional inspirada en el enfoque de Generative U
 - **Dynamic Reporting:** presentación estructurada de resultados.
 
 ---
-
-## 🚀 Visión
-
-Construir una nueva generación de herramientas de Business Intelligence donde los usuarios no necesiten saber cómo consultar o procesar los datos: simplemente necesitan saber qué quieren descubrir.
-
-**DataLens AI — Turning Data into Intelligence.**
