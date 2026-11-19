@@ -1,6 +1,6 @@
 # ◈ DataLens AI
 
-### Generative Business Intelligence · Hierarchical Multi-Agent Systems
+### Generative Business Intelligence · Multi-Agent Systems
 
 **From Enterprise Data to Intelligent Decisions.**
 
