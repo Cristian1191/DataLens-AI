@@ -69,42 +69,66 @@ Su propuesta es sencilla: permitir que cualquier usuario consulte información e
 
 El núcleo de DataLens AI utiliza una arquitectura de **orquestación jerárquica multiagente**, donde cada agente tiene responsabilidades especializadas y trabaja bajo la coordinación de un supervisor central.
 
-```mermaid
+
 flowchart TD
-    U(["User Query"])
+    U(["User Query"]) --> O
+
     O["Hierarchical Orchestrator"]
 
-    subgraph AGENTS["SPECIALIZED AGENTS"]
+    subgraph ORCHESTRATION["ORCHESTRATION & CONTROL"]
+        O --> PLAN["Task Planning & Agent Coordination"]
+        PLAN --> STATE["Execution State & Context Management"]
+        STATE --> O
+    end
+
+    subgraph AGENTS["SPECIALIZED AI AGENTS"]
         I["Query Interpreter"]
-        E["Execution Agent"]
-        A["Statistical Analyst"]
-        AU["Audit Agent"]
-        EV["Evaluation Agent"]
+        E["Data Execution Agent"]
+        A["Statistical Analysis Agent"]
+        AU["Audit & Validation Agent"]
+        EV["Evaluation & Quality Agent"]
         R["Generative Report Agent"]
     end
 
     subgraph INFRA["DATA & AI INFRASTRUCTURE"]
-        DB[("SQL Server")]
-        PY["Python Analytics"]
-        LLM["Ollama / LLMs"]
+        DB[("Microsoft SQL Server")]
+        PY["Python Analytics Engine"]
+        LLM["LLM Runtime<br/>Ollama / DeepSeek / Other Models"]
     end
 
-    UI["Interactive BI Report"]
+    subgraph OUTPUT["INTELLIGENT BI OUTPUT"]
+        DATA["Structured Analytical Results"]
+        REPORT["Generated Insights & Narrative"]
+        UI["Interactive BI Dashboard"]
+    end
 
-    U --> O
     O --> I
-    I --> LLM
-    I --> E
-    E --> DB
-    DB --> PY
-    E --> A
-    A --> AU
-    AU --> EV
-    EV --> O
-    O --> R
-    R --> LLM
-    R --> UI
-```
+    I <--> LLM
+    I -->|"Validated Query Specification"| E
+
+    E -->|"SQL Queries"| DB
+    DB -->|"Retrieved Data"| E
+    E -->|"Prepared Dataset"| A
+
+    A <--> PY
+    A -->|"Statistical Results"| AU
+
+    AU -->|"Validated Findings"| EV
+    EV -->|"Quality Feedback"| O
+
+    EV -->|"Approved Results"| DATA
+    O -->|"Report Generation Request"| R
+    DATA --> R
+
+    R <--> LLM
+    R --> REPORT
+    REPORT --> UI
+
+    E -.->|"Execution Errors"| O
+    A -.->|"Analysis Errors"| O
+    AU -.->|"Validation Issues"| O
+    EV -.->|"Evaluation Feedback"| O
+
 
 ### Agentes especializados
 
