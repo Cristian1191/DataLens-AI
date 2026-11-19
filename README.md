@@ -26,8 +26,12 @@ Plataforma de Business Intelligence impulsada por IA generativa que transforma c
 
 **Artificial Intelligence & LLMs**
 
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Anthropic Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Gemini Nano 4](https://img.shields.io/badge/Gemini_Nano_4-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Firebase AI](https://img.shields.io/badge/Firebase_AI_Logic-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 **Business Intelligence & Visualization**
 
