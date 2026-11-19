@@ -6,7 +6,14 @@
 
 \<p align="center">   Plataforma de Business Intelligence impulsada por IA generativa que transforma consultas en lenguaje natural en análisis estadísticos, insights empresariales y reportes interactivos. \</p>
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)" />   \<img src="[https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white](https://img.shields.io/badge/Ollama-000000?style=for-the-badge\&logo=ollama\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)" />   \<img src="[https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)" /> \</p>
+\<p align="center">   \<img src="[https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)" alt="React" />   \<img src="[https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)" alt="TypeScript" />   \<img src="[https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)" alt="Node.js" />   \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python" /> \</p>
+
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white](https://img.shields.io/badge/Ollama-000000?style=for-the-badge\&logo=ollama\&logoColor=white)" alt="Ollama" />
+&#x20; \<img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)" alt="Firebase" />
+&#x20; \<img src="[https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)" alt="Microsoft SQL Server" />
+&#x20; \<img src="[https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)" alt="Tailwind CSS" />
+\</p>
 
 ---
 
@@ -73,7 +80,25 @@ flowchart TD
 
 ## ⚡ Pipeline de inteligencia
 
-\<pre>   01  DATA INGESTION       SQL Server · CSV · Excel               ↓   02  QUERY INTERPRETATION       Natural Language → Structured JSON               ↓   03  HIERARCHICAL ORCHESTRATION       Task Planning · Agent Coordination               ↓   04  DATA PROCESSING & ANALYTICS       Python · Statistical Analysis               ↓   05  AUDIT & EVALUATION       Consistency · Accuracy · Validation               ↓   06  GENERATIVE REPORTING       LLMs · Insights · Interactive BI \</pre>
+```text
+01  DATA INGESTION
+    SQL Server · CSV · Excel
+              ↓
+02  QUERY INTERPRETATION
+    Natural Language → Structured JSON
+              ↓
+03  HIERARCHICAL ORCHESTRATION
+    Task Planning · Agent Coordination
+              ↓
+04  DATA PROCESSING & ANALYTICS
+    Python · Statistical Analysis
+              ↓
+05  AUDIT & EVALUATION
+    Consistency · Accuracy · Validation
+              ↓
+06  GENERATIVE REPORTING
+    LLMs · Insights · Interactive BI
+```
 
 ## ◈ Inteligencia artificial
 
